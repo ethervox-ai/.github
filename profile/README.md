@@ -100,7 +100,7 @@ In an era where data is the new oil, we believe you should own your data, not bi
 
 <div align="center">
 
-![Organization Stats](https://github-readme-stats.vercel.app/api?username=ethervox-ai&show_icons=true&theme=radical&count_private=true)
+![Organization Stats](https://github-readme-stats.vercel.app/api?username=mkostersitz&show_icons=true&theme=radical&count_private=true)
 
 </div>
 
