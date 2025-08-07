@@ -96,11 +96,20 @@ In an era where data is the new oil, we believe you should own your data, not bi
 
 ---
 
-## 📊 Organization Stats
+## 📊 Organization Overview
 
 <div align="center">
 
-![Organization Stats](https://github-readme-stats.vercel.app/api?username=mkostersitz&show_icons=true&theme=radical&count_private=true)
+![Repositories](https://img.shields.io/badge/Repositories-5+-brightgreen?style=for-the-badge&logo=github)
+![Languages](https://img.shields.io/badge/Languages-TypeScript%20|%20Python%20|%20C++-blue?style=for-the-badge&logo=code)
+![Focus](https://img.shields.io/badge/Focus-Privacy%20First%20AI-purple?style=for-the-badge&logo=shield)
+![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange?style=for-the-badge&logo=creative-commons)
+
+### 🎯 **Organization Metrics**
+- 🚀 **Active Projects**: 1 core framework + 4 planned releases
+- 💻 **Primary Languages**: TypeScript, Python, C++
+- 🌍 **Target Platforms**: Web, Mobile, Desktop, Embedded
+- 🔒 **Privacy Focus**: 100% local-first architecture
 
 </div>
 
