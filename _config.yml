@@ -1,0 +1,36 @@
+# Site settings
+title: "EthervoxAI"
+description: "Multilingual Voice Intelligence for Devices - Privacy-First AI for Everyone"
+url: "https://ethervox.ai"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Downloads
+    url: /downloads
+
+# Social links (placeholders)
+social:
+  github: "https://github.com/ethervox-ai"
+  
+# Exclude from processing
+exclude:
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - SECURITY.md
+  - profile/
+  - .git/
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
