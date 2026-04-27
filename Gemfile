@@ -2,7 +2,4 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
 gem "jekyll-seo-tag"
-
-group :jekyll_plugins do
-  gem "github-pages"
-end
+gem "webrick", "~> 1.8"

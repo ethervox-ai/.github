@@ -18,6 +18,8 @@ navigation:
     url: /about
   - title: Downloads
     url: /downloads
+  - title: Legal
+    url: /legal
 
 # Social links (placeholders)
 social:
