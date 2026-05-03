@@ -1,0 +1,30 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby dependency lock file
+# Excluded because GitHub Pages uses its own gem versions
+Gemfile.lock
+
+# Vendor bundle (if using local bundle)
+vendor/
+.bundle/
+
+# Internal documentation (not for public repo)
+PRIVACY_COMPLIANCE_REFERENCE.md
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.log
+*.tmp
