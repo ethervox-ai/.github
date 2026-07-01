@@ -25,6 +25,13 @@
     "summary": "Added Children's Privacy section and COPPA compliance details",
     "status": "current"
   },
-  "_last_updated": "2026-05-03",
+  "third_party_licenses": {
+    "version": "1.0",
+    "date": "2026-07-01",
+    "url": "https://ethervox.ai/third-party-licenses",
+    "summary": "Initial third-party licenses documentation for open source libraries",
+    "status": "current"
+  },
+  "_last_updated": "2026-07-01",
   "_maintained_by": "EthervoxAI Development Team"
 }
