@@ -1,0 +1,30 @@
+{
+  "_comment": "Legal Document Version Manifest",
+  "_description": "This file tracks version numbers for legal documents. Used by the Android app to detect when users need to re-consent to updated terms/privacy policy. Update this file whenever you update legal documents.",
+  "_instructions": [
+    "1. Update the document on the website (privacy.html or terms.html)",
+    "2. Update the version number in the HTML comment at the top of that file",
+    "3. Update the corresponding version number in this file",
+    "4. Update the date field",
+    "5. Add a brief summary of what changed",
+    "6. Commit and push changes",
+    "7. Update LegalDocumentVersions constants in Android app (app/src/main/java/com/droid/ethervox/FeatureManager.kt)",
+    "8. Release new Android app version"
+  ],
+  "terms_of_service": {
+    "version": "1.1",
+    "date": "2026-04-27",
+    "url": "https://ethervox.ai/terms",
+    "summary": "Added subscription billing details and acceptable use policy",
+    "status": "current"
+  },
+  "privacy_policy": {
+    "version": "2.0",
+    "date": "2026-04-27",
+    "url": "https://ethervox.ai/privacy",
+    "summary": "Added Children's Privacy section and COPPA compliance details",
+    "status": "current"
+  },
+  "_last_updated": "2026-05-03",
+  "_maintained_by": "EthervoxAI Development Team"
+}
