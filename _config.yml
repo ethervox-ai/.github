@@ -1,6 +1,6 @@
 # Site settings
 title: "EthervoxAI"
-description: "Multilingual Voice Intelligence for Devices - Privacy-First AI for Everyone"
+description: "Intelligent tools that leverage the modern processing power you already own - Privacy-First AI for Everyone"
 url: "https://ethervox.ai"
 baseurl: ""
 
@@ -16,8 +16,8 @@ navigation:
     url: /
   - title: About
     url: /about
-  - title: Downloads
-    url: /downloads
+  - title: Products
+    url: /products
   - title: Legal
     url: /legal
 

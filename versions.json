@@ -1,37 +1,70 @@
 {
-  "_comment": "Legal Document Version Manifest",
-  "_description": "This file tracks version numbers for legal documents. Used by the Android app to detect when users need to re-consent to updated terms/privacy policy. Update this file whenever you update legal documents.",
+  "_comment": "Legal Document Version Manifest - Per-Product Schema",
+  "_description": "This file tracks version numbers for legal documents across all Ethervox product lines. Used by apps to detect when users need to re-consent to updated terms/privacy policy.",
+  "_schema_version": "2.0",
+  "_schema_change_date": "2026-08-10",
+  "_schema_changes": "Migrated from flat structure to per-product-line schema. Each product line now tracks its own legal document versions independently.",
   "_instructions": [
-    "1. Update the document on the website (privacy.html or terms.html)",
+    "1. Update the document on the website (e.g., privacy.html, terms.html)",
     "2. Update the version number in the HTML comment at the top of that file",
-    "3. Update the corresponding version number in this file",
+    "3. Update the corresponding version number in this file under the appropriate product line",
     "4. Update the date field",
     "5. Add a brief summary of what changed",
     "6. Commit and push changes",
-    "7. Update LegalDocumentVersions constants in Android app (app/src/main/java/com/droid/ethervox/FeatureManager.kt)",
-    "8. Release new Android app version"
+    "7. Update legal version constants in the app's code",
+    "8. Release new app version with updated version checks"
   ],
-  "terms_of_service": {
-    "version": "1.1",
-    "date": "2026-04-27",
-    "url": "https://ethervox.ai/terms",
-    "summary": "Added subscription billing details and acceptable use policy",
-    "status": "current"
+  "product_lines": {
+    "voice": {
+      "_description": "Voice line: Friend'O'Mine Android, Friend'O'Mine iOS, ESP32 satellite",
+      "terms_of_service": {
+        "version": "2.0",
+        "date": "2026-08-10",
+        "url": "https://ethervox.ai/terms",
+        "summary": "Removed advertising references (app is now ad-free)",
+        "status": "current"
+      },
+      "privacy_policy": {
+        "version": "3.0",
+        "date": "2026-08-10",
+        "url": "https://ethervox.ai/privacy",
+        "summary": "Removed AdMob and all advertising infrastructure (app is now fully local, ad-free)",
+        "status": "current"
+      },
+      "third_party_licenses": {
+        "version": "2.0",
+        "date": "2026-08-10",
+        "url": "https://ethervox.ai/third-party-licenses",
+        "summary": "Removed AdMob SDK and UMP SDK entries",
+        "status": "current"
+      }
+    },
+    "workspace": {
+      "_description": "Workspace line: macOS, iPadOS, Windows, Linux file manager/viewer/editor",
+      "terms_of_service": {
+        "version": "1.0",
+        "date": "2026-08-10",
+        "url": "https://ethervox.ai/terms",
+        "summary": "Initial version for Workspace product line (local-first, no third-party services)",
+        "status": "current"
+      },
+      "privacy_policy": {
+        "version": "1.0",
+        "date": "2026-08-10",
+        "url": "https://ethervox.ai/privacy",
+        "summary": "Initial version for Workspace product line (fully local processing, no data collection)",
+        "status": "current"
+      },
+      "third_party_licenses": {
+        "version": "1.0",
+        "date": "2026-08-10",
+        "url": "https://ethervox.ai/third-party-licenses",
+        "summary": "Initial version for Workspace product line",
+        "status": "current"
+      }
+    }
   },
-  "privacy_policy": {
-    "version": "2.0",
-    "date": "2026-04-27",
-    "url": "https://ethervox.ai/privacy",
-    "summary": "Added Children's Privacy section and COPPA compliance details",
-    "status": "current"
-  },
-  "third_party_licenses": {
-    "version": "1.0",
-    "date": "2026-07-01",
-    "url": "https://ethervox.ai/third-party-licenses",
-    "summary": "Initial third-party licenses documentation for open source libraries",
-    "status": "current"
-  },
-  "_last_updated": "2026-07-01",
-  "_maintained_by": "EthervoxAI Development Team"
+  "_legacy_note": "This file previously used a flat structure. As of 2026-08-10, it uses a per-product-line schema. Legacy apps referencing top-level 'terms_of_service' or 'privacy_policy' should migrate to the 'voice' product line schema.",
+  "_last_updated": "2026-08-10",
+  "_maintained_by": "Ethervox Corporation"
 }

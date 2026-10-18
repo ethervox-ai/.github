@@ -28,3 +28,6 @@ PRIVACY_COMPLIANCE_REFERENCE.md
 # Temporary files
 *.log
 *.tmp
+
+vendor/
+.bundle/
