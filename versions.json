@@ -65,6 +65,6 @@
     }
   },
   "_legacy_note": "This file previously used a flat structure. As of 2026-08-10, it uses a per-product-line schema. Legacy apps referencing top-level 'terms_of_service' or 'privacy_policy' should migrate to the 'voice' product line schema.",
-  "_last_updated": "2026-08-10",
-  "_maintained_by": "Ethervox Corporation"
+  "_last_updated": "2026-06-11",
+  "_maintained_by": "EthervoxAI"
 }
